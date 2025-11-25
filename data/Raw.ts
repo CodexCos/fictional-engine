@@ -26,10 +26,10 @@ export const Logos:TechLogo[] = [
 
 // PROJECT IMAGES
  export const ProjectImages = {
-    nslImages:["/projects/nsl1.png", "/projects/nsl2.png"],
+    nslImages:["/projects/nsl1.webp", "/projects/nsl2.webp"],
     shamanismImages:[
-    "/projects/shamanism1.png",
-    "/projects/shamanism2.png",
+    "/projects/shamanism1.webp",
+    "/projects/shamanism2.webp",
     ]
   }
 

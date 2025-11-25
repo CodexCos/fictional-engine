@@ -68,7 +68,7 @@ export default function Home() {
             I'm open to join a{" "}
             <span className="highlighted-text">cross-functional</span> team
           </h1>
-          <h2 className="text-lg sm:text-xl text-gray-700 mt-4">
+          <h2 className="text-lg sm:text-xl text-gray-700 dark:text-gray-400 mt-4">
             Let’s create solutions that matter — together.
           </h2>
         </div>
@@ -177,7 +177,7 @@ delay-${item.delay} floating-element ball-${item.id}`}
           <h1 className="text-2xl sm:text-4xl font-bold">
             Get in <span className="highlighted-text">Touch</span>.
           </h1>
-          <h2 className="text-lg sm:text-xl text-gray-700 mt-4">
+          <h2 className="text-lg sm:text-xl text-gray-700 dark:text-gray-400 mt-4">
             Send me a message below and I’ll get back to you shortly.
           </h2>
         </div>

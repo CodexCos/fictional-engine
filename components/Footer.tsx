@@ -43,7 +43,7 @@ export default function Footer() {
             ))}
           </div>
           <div>
-            <p className="text-gray-700 pt-2 md:p-0 font-light">
+            <p className="text-gray-700 dark:text-gray-400 pt-2 md:p-0 font-light">
               Development by{" "}
               <span className="dark:text-white text-black font-normal">
                 Saurav KC
