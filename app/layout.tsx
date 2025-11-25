@@ -18,21 +18,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'My Portfolio | Saurav KC',
-  description: 'Welcome to the portfolio of Suarav KC. Showcasing web development projects, and design.',
-  keywords: 'Portfolio, Web Developer, Projects, MERN Stack Developer, Web Developer, Full Stack Developer, JavaScript, React, Node.js, Express.js, MongoDB, Portfolio, Projects, Web Application, Frontend, Backend, Next.js, Redux, REST APIs, GitHub, JavaScript Developer, MERN Projects, Responsive Web Design, React Developer, Node Developer, Express Developer, MongoDB Projects',
-  robots: 'index, follow', 
+  title: "My Portfolio | Saurav KC",
+  description:
+    "Welcome to the portfolio of Saurav KC. Showcasing web development projects, and design.",
+  keywords:
+    "Portfolio, Web Developer, Projects, MERN Stack Developer, Web Developer, Full Stack Developer, JavaScript, React, Node.js, Express.js, MongoDB, Portfolio, Projects, Web Application, Frontend, Backend, Next.js, Redux, REST APIs, GitHub, JavaScript Developer, MERN Projects, Responsive Web Design, React Developer, Node Developer, Express Developer, MongoDB Projects",
+  robots: "index, follow",
   openGraph: {
-    title: 'My Portfolio | Saurav KC',
-    description: 'Welcome to the portfolio of Saurav KC. Showcasing web development projects, and design.',
-    url: 'https://sauravkc8.com.np',
-    siteName: 'Saurav KC',
-    locale: 'en_US',
-    type: 'website',
+    title: "My Portfolio | Saurav KC",
+    description:
+      "Welcome to the portfolio of Saurav KC. Showcasing web development projects, and design.",
+    url: "https://sauravkc8.com.np",
+    siteName: "Saurav KC",
+    locale: "en_US",
+    type: "website",
   },
 };
-
-
 
 export default function RootLayout({
   children,
