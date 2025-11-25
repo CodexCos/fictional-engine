@@ -16,7 +16,7 @@ export default function Footer() {
           <span>Ⓒ 2025</span>
           <div className="flex items-center gap-4">
             <span>BACK TO TOP</span>
-            <button onClick={() => scrollTo({top:0,behavior:"smooth"})} className="bg-black p-4 rounded-full cursor-pointer">
+            <button aria-label="Go up" onClick={() => scrollTo({top:0,behavior:"smooth"})} className="bg-black p-4 rounded-full cursor-pointer">
               <ArrowUp className="text-white" />
             </button>
           </div>
@@ -43,7 +43,7 @@ export default function Footer() {
             ))}
           </div>
           <div>
-            <p className="text-gray-400 pt-2 md:p-0 font-light">
+            <p className="text-gray-700 pt-2 md:p-0 font-light">
               Development by{" "}
               <span className="dark:text-white text-black font-normal">
                 Saurav KC

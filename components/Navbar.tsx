@@ -54,6 +54,7 @@ export default function Navbar() {
       <button
         onClick={toggleMenu}
         className="fixed z-50 md:hidden cursor-pointer rounded-full p-4 navbar-background"
+        aria-label="Menu button"
       >
         <Menu className="w-6 h-6" />
       </button>
