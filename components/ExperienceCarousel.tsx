@@ -37,7 +37,7 @@ export default function CarouselImage({ images }: CarouselImageProps) {
             <CarouselItem key={index}>
               <div className="p-1">
                 <img
-                  className="cursor-zoom-in rounded-lg"
+                  className="cursor-zoom-in h-auto w-auto rounded-lg"
                   src={src}
                   alt={`slide-${index}`}
                   onClick={() => setZoomedImage(src)}
