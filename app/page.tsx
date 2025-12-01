@@ -34,7 +34,7 @@ export default function Home() {
           <div className="sm:hidden grid place-items-center">
             <div className="div-radius bg-purple-500 h-60 w-60"></div>
           </div>
-          <p className="font-mono p-4 sm:p-0 max-w-160">
+          <p className="font-mono p-4 sm:p-0 max-w-200">
             I enjoy taking ideas and turning them into smooth, functional web
             experiences that make people’s lives easier. I’m all about making
             sure every detail works just right, and I love collaborating to
