@@ -28,7 +28,7 @@ export default function Home() {
               Hi, I'm <span className="highlighted-text">Saurav KC</span>
             </h1>
             <h2 className="text-lg p-3 sm:p-0 md:p-0 font-semibold text-gray-600">
-              Full Stack Developer
+              Web Developer
             </h2>
           </div>
           <div className="sm:hidden grid place-items-center">
