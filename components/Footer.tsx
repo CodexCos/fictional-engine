@@ -1,11 +1,11 @@
 'use client'
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { ArrowUp } from "lucide-react";
 import { SOCIAL_LINKS2 } from "@/data/Raw";
 import Link from "next/link";
 
 export default function Footer() {
-
+   
   return (
     <div
       className="relative h-[400px] w-full bg-gray-100 dark:bg-[#333333]"

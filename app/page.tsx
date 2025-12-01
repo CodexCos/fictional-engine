@@ -7,20 +7,6 @@ import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
   const [hoveredItem, setHoveredItem] = useState<number | null>(null);
-  const [mail, setMail] = useState({
-    subject: "",
-    body: "",
-  });
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    const { name, value } = e.target;
-    setMail((prevMail) => ({
-      ...prevMail,
-      [name]: value,
-    }));
-  };
 
   const handleMouseEnter = (id: number) => {
     setHoveredItem(id);
